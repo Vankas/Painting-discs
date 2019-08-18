@@ -327,15 +327,12 @@ body {
     font-weight: 700;
     line-height: 31px;
     text-transform: uppercase;
-    margin-top: 85px;
-    margin-bottom: 85px;
 }
 
 .painting-discs_text {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-bottom: 37px;
 }
 
 .painting-discs_text .title {
@@ -397,6 +394,12 @@ table .blue {
     display: flex;
     width: auto;
     height: auto;
+    justify-content: space-between;
+}
+
+.painting-discs__price_img img {
+    width: auto;
+    height: auto;
 }
 
 .painting-discs__about-price {
@@ -437,12 +440,27 @@ table .blue {
     line-height: 24px;
 }
 
-.painting-discs__about-price .ol-1 {
+.painting-discs .ol-1 {
     padding-left: 17px;
 }
 
-.painting-discs__about-price .ol-2 {
+.painting-discs .ol-2 {
     padding-left: 55px;
+}
+
+.painting-discs .ul-1 {
+    list-style: none;
+    padding-left: 40px;
+    margin-bottom: 0;
+}
+
+.painting-discs .ul-1 li::before {
+    content: "-";
+    padding-right: 3px;
+}
+
+.painting-discs .ul-1 li:not(:last-child) {
+    margin-bottom: 22px;
 }
 
 .painting-discs__also-see {
@@ -478,13 +496,6 @@ table .blue {
     box-shadow: none;
     background-color: transparent;
     padding: 0;
-}
-
-.painting-discs__also-see_buttons button {
-    text-decoration: none;
-    color: #fff;
-    background-image: -moz-linear-gradient( 90deg, rgb(114, 101, 236) 0%, rgb(60, 174, 228) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(114, 101, 236) 0%, rgb(60, 174, 228) 100%);
 }
 
 .painting-discs__also-see_buttons button img {
