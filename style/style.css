@@ -169,8 +169,8 @@ body {
 }
 
 .owl-carousel .item {
-    width: 255px;
-    height: 322px;
+    width: 100%;
+    height: auto;
     position: relative;
     z-index: 100;
     -webkit-backface-visibility: hidden;
