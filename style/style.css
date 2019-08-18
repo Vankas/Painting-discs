@@ -232,6 +232,8 @@ body {
     width: 100%;
     height: 985px;
     background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Главная/Этапы_работы/ferrari-2468015_1920.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .work-stages_title {
@@ -305,7 +307,7 @@ body {
     line-height: 24px;
 }
 
-.painting-discs {
+.container-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,13 +315,23 @@ body {
     text-align: center;
     width: 100%;
     height: auto;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/О_нас/Фон.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+/* .about-us {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/О_нас/Фон.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .wrapper {
     width: 61%;
 }
 
-.painting-discs_title {
+.container-box_title {
     display: block;
     color: #363636;
     font-family: Roboto-Bold;
@@ -329,19 +341,24 @@ body {
     text-transform: uppercase;
 }
 
-.painting-discs_text {
+.container-box_text {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
-.painting-discs_text .title {
+.container-box_text .title {
     font-family: Roboto-Bold;
     font-size: 22px;
     font-weight: 700;
 }
 
-.painting-discs_text span {
+.container-box_text .bold {
+    font-family: Roboto-Bold;
+    font-weight: 700;
+}
+
+.container-box_text span {
     color: #363636;
     font-family: Roboto-Regular;
     font-size: 16px;
@@ -349,26 +366,27 @@ body {
     line-height: 35px;
 }
 
-.painting-discs_text span:not(:last-child) {
+.container-box_text span:not(:last-child) {
     margin-bottom: 58px;
 }
 
-.painting-discs__price {
+.container-box__price {
     display: flex;
     margin-bottom: 40px;
 }
 
-.painting-discs__price_table {
+.container-box__price_table {
     display: flex;
     margin-right: 84px;
 }
 
-.painting-discs__price_table tr:first-child {
+.container-box__price_table tr:first-child {
     background-color: #3b7ded;
     background-image: linear-gradient(to top, rgba(0, 123, 255, 0.9) 0%, rgba(0, 180, 255, 0.9) 100%);
+    border: 1px solid rgba(0, 123, 255, 0.9);
 }
 
-.painting-discs__price_table th {
+.container-box__price_table th {
     color: #ffffff;
     font-family: Roboto-Regular;
     font-size: 16px;
@@ -376,7 +394,7 @@ body {
     letter-spacing: 0.16px;
 }
 
-.painting-discs__price_table td {
+.container-box__price_table td {
     height: 32px;
     color: #363636;
     font-family: Roboto-Regular;
@@ -388,23 +406,23 @@ body {
     padding: 0;
 }
 
-table .blue {
+.container-box table .blue {
     background-color: rgba(59, 125, 237, 0.1);
 }
 
-.painting-discs__price_img {
+.container-box__price_img {
     display: flex;
     width: auto;
     height: auto;
     justify-content: space-between;
 }
 
-.painting-discs__price_img img {
+.container-box__price_img img {
     width: auto;
     height: auto;
 }
 
-.painting-discs__about-price {
+.container-box__about-price {
     width: 100%;
     height: auto;
     display: flex;
@@ -413,7 +431,7 @@ table .blue {
     margin-bottom: 107px;
 }
 
-.painting-discs__about-price button {
+.container-box__about-price button {
     width: 180px;
     height: 42px;
     border-radius: 21px;
@@ -427,7 +445,7 @@ table .blue {
     font-weight: 400;
 }
 
-.painting-discs__about-price .red {
+.container-box__about-price .red {
     color: #ff3c3c;
     font-size: 16px;
     font-family: Roboto-Regular;
@@ -435,14 +453,15 @@ table .blue {
     line-height: 35px;
 }
 
-.painting-discs__about-price .title {
+.container-box__about-price .title {
     font-family: Roboto-Bold;
     font-size: 22px;
     font-weight: 700;
     line-height: 35px;
 }
 
-.painting-discs__about-price .text {
+.container-box_text .text,
+.container-box__about-price .text {
     font-family: Roboto-Regular;
     font-size: 16px;
     font-weight: 400;
@@ -450,36 +469,51 @@ table .blue {
     /* 35px */
 }
 
-.painting-discs__about-price .dont-take {
+.container-box__about-price .dont-take {
     font-family: Roboto-Regular;
     font-weight: 400;
     line-height: 24px;
 }
 
-.painting-discs .ol-1 {
+.about-us_ul-1 {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 58px;
+}
+
+.about-us_ul-1 li::before {
+    content: url(../img/О_нас/check-mark_копия_13.png);
+    padding-right: 12px;
+}
+
+.about-us_ul-1 li:not(:last-child) {
+    margin-bottom: 22px;
+}
+
+.container-box .ol-1 {
     padding-left: 17px;
 }
 
-.painting-discs .ol-2 {
+.container-box .ol-2 {
     padding-left: 55px;
 }
 
-.painting-discs .ul-1 {
+.container-box .ul-1 {
     list-style: none;
     padding-left: 40px;
     margin-bottom: 0;
 }
 
-.painting-discs .ul-1 li::before {
+.container-box .ul-1 li::before {
     content: "-";
     padding-right: 3px;
 }
 
-.painting-discs .ul-1 li:not(:last-child) {
+.container-box .ul-1 li:not(:last-child) {
     margin-bottom: 22px;
 }
 
-.painting-discs__also-see {
+.container-box__also-see {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -487,7 +521,7 @@ table .blue {
     height: auto;
 }
 
-.painting-discs__also-see span {
+.container-box__also-see span {
     color: #363636;
     font-family: Roboto-Regular;
     font-size: 46px;
@@ -497,7 +531,7 @@ table .blue {
     margin-bottom: 78px;
 }
 
-.painting-discs__also-see_buttons {
+.container-box__also-see_buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -506,7 +540,7 @@ table .blue {
     margin-bottom: 119px;
 }
 
-.painting-discs__also-see_buttons button {
+.container-box__also-see_buttons button {
     border: none;
     outline: none;
     box-shadow: none;
@@ -514,7 +548,7 @@ table .blue {
     padding: 0;
 }
 
-.painting-discs__also-see_buttons button img {
+.container-box__also-see_buttons button img {
     width: 100%;
     height: auto;
 }
