@@ -411,6 +411,20 @@ table .blue {
     margin-bottom: 107px;
 }
 
+.painting-discs__about-price button {
+    width: 180px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #ff6430;
+    background-image: linear-gradient(to top, #007bff 0%, #00b4ff 100%);
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .painting-discs__about-price .red {
     color: #ff3c3c;
     font-size: 16px;
