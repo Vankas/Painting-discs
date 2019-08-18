@@ -135,6 +135,95 @@ body {
     /*25px*/
 }
 
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.slider span {
+    color: #363636;
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 111px;
+}
+
+.carousel-wrap {
+    margin-bottom: 220px;
+    padding: 0 0%;
+    width: 42%;
+    position: relative;
+}
+
+.owl-carousel {
+    justify-content: center;
+    display: flex !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.owl-carousel .item {
+    width: 255px;
+    height: 322px;
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    margin: 5px 5px !important;
+}
+
+.owl-nav>div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+}
+
+.owl-nav i {
+    font-size: 52px;
+}
+
+.owl-nav {
+    display: flex;
+    position: absolute;
+    top: 50%;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -481px;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    right: -481px;
+}
+
+.owl-carousel button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-carousel img {
+    width: 255px;
+    height: auto;
+}
+
 .work-stages {
     display: flex;
     text-align: center;
@@ -213,6 +302,51 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
+}
+
+.painting-discs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 55%;
+}
+
+.painting-discs_title {
+    display: block;
+    color: #363636;
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 31px;
+    text-transform: uppercase;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.painting-discs_text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 37px;
+}
+
+.painting-discs_text span {
+    color: #363636;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.painting-discs_text span:not(:last-child) {
+    margin-bottom: 58px;
 }
 
 .footer {
