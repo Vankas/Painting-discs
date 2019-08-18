@@ -316,7 +316,7 @@ body {
 }
 
 .wrapper {
-    width: 49%;
+    width: 61%;
 }
 
 .painting-discs_title {
@@ -336,6 +336,12 @@ body {
     flex-direction: column;
     text-align: left;
     margin-bottom: 37px;
+}
+
+.painting-discs_text .title {
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .painting-discs_text span {
@@ -472,6 +478,18 @@ table .blue {
     box-shadow: none;
     background-color: transparent;
     padding: 0;
+}
+
+.painting-discs__also-see_buttons button {
+    text-decoration: none;
+    color: #fff;
+    background-image: -moz-linear-gradient( 90deg, rgb(114, 101, 236) 0%, rgb(60, 174, 228) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(114, 101, 236) 0%, rgb(60, 174, 228) 100%);
+}
+
+.painting-discs__also-see_buttons button img {
+    width: 100%;
+    height: auto;
 }
 
 .footer {
