@@ -230,10 +230,30 @@ body {
     margin-block-end: 0;
 }
 
+.container-box__fotogallery {
+    display: grid;
+    grid-column: auto;
+    width: 100%;
+    height: auto;
+    grid-template-rows: 230px 230px 230px 230px 230px;
+    grid-template-columns: 230px 230px 230px 230px 230px;
+    grid-gap: 5px;
+}
 
-/* .container-box_text p:not(:last-child) {
-    margin-bottom: 58px;
-} */
+.container-box__fotogallery button {
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.container-box__fotogallery button img {
+    width: 230px;
+    height: auto;
+}
 
 .container-box__price {
     display: flex;
