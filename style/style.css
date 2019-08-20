@@ -281,6 +281,16 @@ body {
     padding: 0;
 }
 
+.video-box button:hover path {
+    fill: #00b4ff;
+    box-shadow: 0 0 38px 2px rgba(0, 123, 255, 0.8);
+}
+
+.video-box button:hover svg:hover {
+    -webkit-filter: drop-shadow(0 0 38px 2px rgba(0, 123, 255, 0.8));
+    filter: drop-shadow(0 0 38px 2px rgba(0, 123, 255, 0.8));
+}
+
 
 /* 
 *content 
