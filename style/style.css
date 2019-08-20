@@ -7,9 +7,11 @@ body {
 
 
 /* 
-*Первый слайдер "Наши преимущества" 
+*Первый слайдер "Наши преимущества"
+*второй слайдер "Фотогалерея" 
 */
 
+.slider-foto,
 .slider {
     display: flex;
     flex-direction: column;
@@ -18,22 +20,35 @@ body {
     align-items: center;
 }
 
-.slider span {
-    color: #363636;
-    font-family: Roboto;
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 31px;
-    text-transform: uppercase;
-    margin-top: 200px;
-    margin-bottom: 111px;
+.slider {
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Главная/Преимущества/wheel-2682229_1920.jpg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-foto {
+    background-image: url(../img/Главная/Фотогалерея/Фон.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider-foto .container-box_title {
+    color: #fff;
+    margin-top:
 }
 
 .carousel-wrap {
-    margin-bottom: 220px;
     padding: 0 0%;
     width: 42%;
     position: relative;
+}
+
+.slider .carousel-wrap {
+    margin-bottom: 220px;
+}
+
+.slider-foto .carousel-wrap {
+    margin-bottom: 160px;
 }
 
 .owl-carousel {
@@ -95,9 +110,48 @@ body {
     display: none;
 }
 
+.slider .owl-carousel .owl-nav img {
+    content: url(../img/Главная/Преимущества/left.png);
+    width: 72px;
+    height: 72px;
+}
+
+.slider-foto .owl-carousel .owl-nav img {
+    content: url(../img/Главная/Фотогалерея/left.png);
+    box-shadow: 0 0 38px 2px rgba(0, 123, 255, 0.82);
+    width: 69px;
+    height: 72px;
+}
+
+.owl-carousel .owl-next img {
+    transform: rotate(180deg);
+}
+
 .owl-carousel img {
-    width: 255px;
+    width: 72px;
     height: auto;
+}
+
+.owl-nav button {
+    width: 72px;
+    height: 72px;
+}
+
+.slider-foto .owl-nav button:hover img {
+    content: url(../img/Главная/Фотогалерея/left-hover.png);
+    box-shadow: 0 0 54px 8px rgba(0, 123, 255, 0.9);
+    width: 68px;
+    height: 72px;
+}
+
+.slider .owl-nav button:hover img {
+    content: url(../img/Главная/Преимущества/left-hover.png);
+    width: 72px;
+    height: 72px;
+}
+
+.owl-nav button:hover {
+    background: transparent !important;
 }
 
 
