@@ -1,0 +1,32 @@
+@media 360px
+
+.wrapper {
+    width: 350px;
+}
+
+.container-box_title {
+    font-size: 34px;
+}
+
+.container-box__price {
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container-box__price_table {
+    margin-right: 0px;
+}
+
+.container-box__price_table .table_2-column {
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.container-box__price_table .table_2-column th:first-child {
+    width: 100px;
+}
+
+.container-box__price_table .table_2-column th:last-child {
+    width: 250px;
+}
+
