@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/О_нас/Фон.png);
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/About-us/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,20 +21,19 @@ body {
 }
 
 .slider {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Главная/Преимущества/wheel-2682229_1920.jpg.png);
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Main/Advantages/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .slider-foto {
-    background-image: url(../img/Главная/Фотогалерея/Фон.png);
+    background-image: url(../img/Main/Fotogallery/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .slider-foto .container-box_title {
     color: #fff;
-    margin-top:
 }
 
 .carousel-wrap {
@@ -111,13 +110,13 @@ body {
 }
 
 .slider .owl-carousel .owl-nav img {
-    content: url(../img/Главная/Преимущества/left.png);
+    content: url(../img/Main/Advantages/left.png);
     width: 72px;
     height: 72px;
 }
 
 .slider-foto .owl-carousel .owl-nav img {
-    content: url(../img/Главная/Фотогалерея/left.png);
+    content: url(../img/Main/Fotogallery/left.png);
     box-shadow: 0 0 38px 2px rgba(0, 123, 255, 0.82);
     width: 69px;
     height: 72px;
@@ -138,14 +137,14 @@ body {
 }
 
 .slider-foto .owl-nav button:hover img {
-    content: url(../img/Главная/Фотогалерея/left-hover.png);
+    content: url(../img/Main/Fotogallery/left-hover.png);
     box-shadow: 0 0 54px 8px rgba(0, 123, 255, 0.9);
     width: 68px;
     height: 72px;
 }
 
 .slider .owl-nav button:hover img {
-    content: url(../img/Главная/Преимущества/left-hover.png);
+    content: url(../img/Main/Advantages/left-hover.png);
     width: 72px;
     height: 72px;
 }
@@ -192,7 +191,7 @@ body {
 */
 
 .work-stages {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Главная/Этапы_работы/ferrari-2468015_1920.jpg.png);
+    background-image: linear-gradient( rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/Main/Work-stages/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 148px;
@@ -270,7 +269,7 @@ body {
     text-align: center;
     width: 100%;
     height: auto;
-    background-image: url(../img/Главная/Видео/Фон.png);
+    background-image: url(../img/Main/Video/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 215px;
@@ -314,22 +313,47 @@ body {
 .video-box .button-1 {
     width: 270px;
     height: 418px;
+    background-image: url(../img/Main/Video/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .video-box .button-2 {
     width: 570px;
     height: 195px;
+    background-image: url(../img/Main/Video/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .video-box .button-3 {
     width: 270px;
     height: 193px;
+    background-image: url(../img/Main/Video/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-box .button-4 {
+    width: 270px;
+    height: 193px;
+    background-image: url(../img/Main/Video/4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-box .button-5 {
+    width: 270px;
+    height: 418px;
+    background-image: url(../img/Main/Video/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .video-box button {
     width: 100%;
     height: auto;
-    border: 1 solid black;
+    border: none;
     outline: none;
     box-shadow: none;
     background-color: transparent;
@@ -417,7 +441,7 @@ body {
 .container-box__price_table tr:first-child {
     background-color: #3b7ded;
     background-image: linear-gradient(to top, rgba(0, 123, 255, 0.9) 0%, rgba(0, 180, 255, 0.9) 100%);
-    border: 1px solid rgba(0, 123, 255, 0.9);
+    border-right: 1px solid rgba(0, 123, 255, 0.9);
 }
 
 .container-box__price_table .table_2-column {
@@ -571,7 +595,7 @@ body {
 }
 
 .about-us_ul-1 li::before {
-    content: url(../img/О_нас/check-mark_копия_13.png);
+    content: url(../img/About-us/check-mark.png);
     padding-right: 12px;
 }
 
@@ -645,597 +669,3 @@ body {
     width: 100%;
     height: auto;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 359px) {
-    .wrapper {
-        width: 310px;
-    }
-    .container-box_title {
-        font-size: 24px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px;
-        grid-template-columns: 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 0px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table th {
-        font-size: 13px;
-    }
-    .container-box__price_img .img-three {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img .img-1 {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img .img-2 {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img .img-3 {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img .img-4 {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 310px;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 479px) {
-    .wrapper {
-        width: 350px;
-    }
-    .container-box_title {
-        font-size: 27px;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px;
-        grid-template-columns: 230px;
-        justify-content: center;
-    }
-    .container-box__price_table {
-        margin-right: 0px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img .img-1 {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img .img-2 {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img .img-3 {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img .img-4 {
-        width: 350px;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 599px) {
-    .wrapper {
-        width: 470px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px;
-        grid-template-columns: 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 0px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-about-us {
-        width: 470px;
-        height: auto;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 470px;
-        height: auto;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-    .wrapper {
-        width: 590px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px;
-        grid-template-columns: 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 0px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 590px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 590px;
-        height: auto;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    .wrapper {
-        width: 728px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px;
-        grid-template-columns: 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 0px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 728px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 960px) and (max-width: 1023px) {
-    .wrapper {
-        width: 900px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px 230px;
-        grid-template-columns: 230px 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price_table {
-        margin-right: 40px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 900px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
-    .wrapper {
-        width: 900px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px 230px;
-        grid-template-columns: 230px 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 40px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 900px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1279px) {
-    .wrapper {
-        width: 1100px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__fotogallery {
-        grid-template-rows: 230px 230px 230px 230px;
-        grid-template-columns: 230px 230px 230px 230px;
-        justify-content: center;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 40px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 1100px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-}
-
-
-/* @media only screen and (min-width: 1280px) and (max-width: 1679px) {
-    .wrapper {
-        width: 1170px;
-    }
-    .container-box_title {
-        font-size: 31px;
-    }
-    .container-box__price {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .container-box__price_table {
-        margin-right: 40px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 1100px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img img:not(:last-child) {
-        margin-bottom: 10px;
-    }
-} */
-
-
-/* @media only screen and (min-width: 1680px) and (max-width: 3200px) {
-    .wrapper {
-        width: 1170px;
-    }
-    .container-box__price_table {
-        margin-right: 40px;
-    }
-    .container-box__price_table .table_2-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_table .table_4-column {
-        margin-bottom: 30px;
-    }
-    .container-box__price_img {
-        flex-direction: column;
-        height: auto;
-    }
-    .container-box__price_img .img-about-us {
-        width: 1169px;
-        height: auto;
-    }
-    .container-box__price_img .img-three {
-        width: 370px;
-        height: 219px;
-    }
-    .container-box__price_img .img-1 {
-        width: 394px;
-        height: 364px;
-    }
-    .container-box__price_img .img-2 {
-        width: 366px;
-        height: 364px;
-    }
-    .container-box__price_img .img-3 {
-        width: 364px;
-        height: 363px;
-    }
-    .container-box__price_img .img-4 {
-        width: 669px;
-        height: 364px;
-    }
-
-} */
